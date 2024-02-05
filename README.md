@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Instagram Clone App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out the clone app here https://instagram-weld-eta.vercel.app/
 
-## Available Scripts
+![Untitled design (5)](https://github.com/lordbakyarou/instagram-clone/assets/70631103/90a28cca-6bc3-406b-8810-6e109f09bf46)
 
-In the project directory, you can run:
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a full-stack Instagram clone app that allows users to replicate key functionalities of the popular social media platform. Users can sign up, log in, create new posts, like and bookmark posts, add comments, view other users' post details, change their profile picture and description, create and delete stories, and view stories from users they are following.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **User Authentication**: Sign up and log in securely to access personalized features.
+- **Post Management**: Create, like, bookmark, and comment on posts.
+- **Profile Customization**: Change profile picture and update user descriptions.
+- **Story Handling**: Create and delete personal stories, view stories from followed users.
+- **Intuitive Interface**: User-friendly design for seamless navigation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    git clone https://github.com/your-username/instagram-clone.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd instagram-clone
+    ```
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+2. Access the app in your web browser at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Include screenshots or GIFs showcasing key features of your app.
 
-### Code Splitting
+![Screenshot 2024-02-05 034535](https://github.com/lordbakyarou/instagram-clone/assets/70631103/8c624fb5-3e1d-4ca6-b489-c28a5a53652c)
+![image](https://github.com/lordbakyarou/instagram-clone/assets/70631103/07f945a5-9c46-4fb5-a193-90fb07bfa51c) ![image](https://github.com/lordbakyarou/instagram-clone/assets/70631103/d030a098-d21b-46b4-8364-2b51c580edf3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technologies Used
 
-### Making a Progressive Web App
+- **Frontend**: React.js, Redux Toolkit for state management, Tailwind for UI components.
+- **Backend**: Node.js, Express.js, MongoDB for database.
+- **Authentication**: JSON Web Tokens (JWT).
+- **Other Tools**: Cloudinary for images
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/new-feature`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/new-feature`.
+5. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
